@@ -1,0 +1,13 @@
+{
+  "name": "static-resume",
+  "version": "1.2.0",
+  "description": "static resume",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT"
+}

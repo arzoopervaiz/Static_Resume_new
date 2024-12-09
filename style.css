@@ -1,0 +1,213 @@
+ body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Full-screen height */
+}
+
+:root {
+    --black-color: black;
+    --white-color: white;
+    --grey-color: rgb(79, 79, 79);
+}
+
+/* Resume Container */
+.resume-container {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); /* Gray shadow around the resume */
+    border-radius: 10px;
+    width: 100%; /* Fluid width */
+    max-width: 800px; /* Limit width for desktop */
+    background-color: var(--white-color);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row; /* Side-by-side layout */
+}
+
+.left-section {
+    background-color: var(--black-color);
+    color: var(--white-color);
+    padding: 20px;
+    text-align: center;
+    flex: 1; /* Responsive width */
+    
+}
+
+.right-section {
+    padding: 20px;
+    flex: 2; /* Larger width than the left section */
+}
+
+/* Profile Picture */
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 0 auto 20px;
+    border: 3px solid var(--white-color);
+}
+
+/* Headings and Text */
+.h3-style{
+    font-size: 18px;
+    padding: 10px 20px;
+    margin: 20px 0;
+    color: var(--white-color);
+    background-color: var(--black-color);
+    border-radius: 30px;
+    text-align: center;
+}
+
+hr {
+    border-top: 2px solid var(--grey-color);
+    margin: 20px 0;
+}
+
+.skills ul li {
+    color: var(--black-color);
+    margin-bottom: 10px;
+}
+
+.style-heading {
+    font-size: 18px;
+    padding: 10px 20px;
+    margin: 20px 0;
+    color: var(--white-color);
+    background-color: var(--black-color);
+    border-radius: 30px;
+    text-align: center;
+}
+
+
+
+/* Buttons */
+.btn button {
+    background-color: var(--black-color);
+    color: var(--white-color);
+    padding: 10px 20px;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn button:hover {
+    background-color: var(--grey-color);
+    color: var(--black-color);
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .resume-container {
+        flex-direction: column; /* Stack sections vertically */
+    }
+
+    .left-section, .right-section {
+        padding: 15px;
+    }
+
+    .profile-pic {
+        width: 120px;
+        height: 120px;
+    }
+
+    h3 {
+        font-size: 16px;
+    }
+
+    .style-heading {
+        font-size: 16px;
+        padding: 8px 15px;
+    }
+
+    .btn button {
+        padding: 8px 15px;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+    .resume-container {
+        max-width: 100%; /* Full width on small screens */
+    }
+
+    .profile-pic {
+        width: 100px;
+        height: 100px;
+    }
+
+    h3 {
+        font-size: 14px;
+    }
+
+    .style-heading {
+        font-size: 14px;
+        padding: 5px 10px;
+    }
+
+    .btn button {
+        padding: 5px 10px;
+        font-size: 12px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
